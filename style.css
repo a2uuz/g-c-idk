@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: wheat;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 3%;
+    
+    
+    
+}
+.green,
+.tomato{
+    width: 40vw;
+    height: 40vh;
+    border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.green{
+    background-color: greenyellow;
+}
+
+.tomato{
+    background-color: tomato;
+}
